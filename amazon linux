@@ -1,0 +1,4 @@
+sudo amazon-linux-extras install epel -y
+sudo yum install stress -y
+stress --help
+stress -c 1 -t 3600
